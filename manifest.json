@@ -1,0 +1,2458 @@
+{
+ "sequence": "hash(i) = \"0x\" + hex(sha256(\"intervals-r3:\" + i)), i as a decimal integer",
+ "range": [
+  0,
+  10000000
+ ],
+ "chunk_size": 100000,
+ "static_definition": "nflat == 3: each of the three colour intervals spans less than 2 CIELAB units from its start colour to its end colour",
+ "core_columns": [
+  "i",
+  "bars",
+  "o",
+  "lt",
+  "vt",
+  "ratio",
+  "restarts",
+  "nflat"
+ ],
+ "variant_codes": [
+  "none",
+  "analogous",
+  "complementary",
+  "monochromatic",
+  "achromatic",
+  "saturated",
+  "tinted"
+ ],
+ "node_version_used": "v26.13.1",
+ "sha256": {
+  "screen3.mjs": "85d3f49c382f13b8cc956b7bee6725815ed8b5351098cf220b5b45bd7c0a1224",
+  "intervals.js": "38c234b2a0d5715604136f33cf6c6dbd2afc9c7609691225ec81b9eac16a9be3"
+ },
+ "totals": {
+  "hashes": 10000000,
+  "variants": {
+   "none": 5498949,
+   "analogous": 1498724,
+   "complementary": 500707,
+   "monochromatic": 299119,
+   "achromatic": 100143,
+   "saturated": 1201665,
+   "tinted": 900693
+  },
+  "statics": {
+   "none": 1,
+   "analogous": 13,
+   "complementary": 865,
+   "monochromatic": 10371,
+   "achromatic": 274,
+   "saturated": 14,
+   "tinted": 71
+  },
+  "statics_all": 11609
+ },
+ "chunks": [
+  {
+   "start": 0,
+   "end": 100000,
+   "full": "9612ecdb8c30defced8d3bef3c9afab20a473e0d40877e5076fb99883d0598df",
+   "core": "aded2bd585022997d89758887273b10476f9ead50ed422237e0f14dadf1a32e4",
+   "variants": {
+    "none": 55027,
+    "analogous": 15009,
+    "complementary": 5004,
+    "monochromatic": 3022,
+    "achromatic": 1007,
+    "saturated": 11938,
+    "tinted": 8993
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 11,
+    "monochromatic": 99,
+    "achromatic": 5,
+    "saturated": 0,
+    "tinted": 0
+   }
+  },
+  {
+   "start": 100000,
+   "end": 200000,
+   "full": "36ecadb85ba451bb5fae17e36b20235288879b0381a6a0b32fe0cd64b69e63d5",
+   "core": "70b3b4d3a02002f663ec097bd34b8cbc83b86b5bbae7deb54aa119739980c5b0",
+   "variants": {
+    "none": 54959,
+    "analogous": 15184,
+    "complementary": 4922,
+    "monochromatic": 2955,
+    "achromatic": 1034,
+    "saturated": 11976,
+    "tinted": 8970
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 10,
+    "monochromatic": 100,
+    "achromatic": 5,
+    "saturated": 0,
+    "tinted": 0
+   }
+  },
+  {
+   "start": 200000,
+   "end": 300000,
+   "full": "3658a6a6e860f35c8bfda6b6de7898ec3a58eb114a180e013f184b81facd9359",
+   "core": "556675fc89f3d5762ac31904447ba460ce4cbab1086dab2a45230ec6b4fad9ce",
+   "variants": {
+    "none": 54965,
+    "analogous": 14959,
+    "complementary": 5084,
+    "monochromatic": 2978,
+    "achromatic": 962,
+    "saturated": 11994,
+    "tinted": 9058
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 8,
+    "monochromatic": 116,
+    "achromatic": 1,
+    "saturated": 0,
+    "tinted": 2
+   }
+  },
+  {
+   "start": 300000,
+   "end": 400000,
+   "full": "5a0f8d977cffe41224b3b2f5cfcfefcf25f625f754ff7a38995b0863eab6851e",
+   "core": "ca3105fb33ee7b3e638faaaf16a8b809422ded3eb24e80197e470e67bdfb7c87",
+   "variants": {
+    "none": 55027,
+    "analogous": 15022,
+    "complementary": 5140,
+    "monochromatic": 3103,
+    "achromatic": 1036,
+    "saturated": 11805,
+    "tinted": 8867
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 1,
+    "complementary": 5,
+    "monochromatic": 119,
+    "achromatic": 3,
+    "saturated": 0,
+    "tinted": 0
+   }
+  },
+  {
+   "start": 400000,
+   "end": 500000,
+   "full": "9acde85b4b2f528fa0fb188c7c469a5aab5490d8f2684dd866587747887c10fc",
+   "core": "004af77e70aa03ef67e177009fbddbfb5ee7c43f76f80a9de3a823dd4594684a",
+   "variants": {
+    "none": 54914,
+    "analogous": 14828,
+    "complementary": 5016,
+    "monochromatic": 3014,
+    "achromatic": 986,
+    "saturated": 12028,
+    "tinted": 9214
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 8,
+    "monochromatic": 113,
+    "achromatic": 3,
+    "saturated": 0,
+    "tinted": 1
+   }
+  },
+  {
+   "start": 500000,
+   "end": 600000,
+   "full": "72608aad42fcfc0031120b0ed75c39bc95676ffe632b40a577bb19dba4c7861e",
+   "core": "f0fabd1f07ba34e7dbcbf9a86421b886d34d64c918ef609868aa3486b6415357",
+   "variants": {
+    "none": 55062,
+    "analogous": 15062,
+    "complementary": 4946,
+    "monochromatic": 2990,
+    "achromatic": 970,
+    "saturated": 11932,
+    "tinted": 9038
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 7,
+    "monochromatic": 109,
+    "achromatic": 2,
+    "saturated": 0,
+    "tinted": 0
+   }
+  },
+  {
+   "start": 600000,
+   "end": 700000,
+   "full": "d95241aea4b80e221ba9b272eaf97f475077f8846907f10f3659b36b17bff32e",
+   "core": "de2085b7f7711a1d4eb4a09a2e9d767c6a38be74042af607d4b25c3ddab55e62",
+   "variants": {
+    "none": 55243,
+    "analogous": 14808,
+    "complementary": 4921,
+    "monochromatic": 2971,
+    "achromatic": 1062,
+    "saturated": 11886,
+    "tinted": 9109
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 1,
+    "complementary": 7,
+    "monochromatic": 118,
+    "achromatic": 1,
+    "saturated": 0,
+    "tinted": 2
+   }
+  },
+  {
+   "start": 700000,
+   "end": 800000,
+   "full": "caa25a9e15da7769a49916863cb214050d8603f9814701e7cda47c191ad01350",
+   "core": "ef7fb62257e7dd9563aad506837754c5767e807290fd7441fc31a5d0ff3f5f2b",
+   "variants": {
+    "none": 55098,
+    "analogous": 15129,
+    "complementary": 4984,
+    "monochromatic": 3023,
+    "achromatic": 982,
+    "saturated": 11849,
+    "tinted": 8935
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 1,
+    "complementary": 7,
+    "monochromatic": 120,
+    "achromatic": 3,
+    "saturated": 0,
+    "tinted": 0
+   }
+  },
+  {
+   "start": 800000,
+   "end": 900000,
+   "full": "91ee6ec55fad0185d32f1319bc64d61a2ebb367157afeb9d980b7500bac1e83c",
+   "core": "3576b4d4e454581e839d070dfa8e4fbdfa9d3d98f78b3024f9d7f2da04898751",
+   "variants": {
+    "none": 55181,
+    "analogous": 14778,
+    "complementary": 5029,
+    "monochromatic": 2892,
+    "achromatic": 1009,
+    "saturated": 12020,
+    "tinted": 9091
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 13,
+    "monochromatic": 105,
+    "achromatic": 4,
+    "saturated": 1,
+    "tinted": 1
+   }
+  },
+  {
+   "start": 900000,
+   "end": 1000000,
+   "full": "e6f39f96b4504796ee4fa1f5452471239c17ed89509e722e49e35746822b29a0",
+   "core": "2df54cd09561b5e0788ab43cfb6d4f42dc7b5371afe90c09c54e7dcf6e649cc4",
+   "variants": {
+    "none": 55185,
+    "analogous": 14824,
+    "complementary": 4989,
+    "monochromatic": 2947,
+    "achromatic": 1009,
+    "saturated": 12117,
+    "tinted": 8929
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 15,
+    "monochromatic": 93,
+    "achromatic": 5,
+    "saturated": 0,
+    "tinted": 0
+   }
+  },
+  {
+   "start": 1000000,
+   "end": 1100000,
+   "full": "286151e6630dd51aadaf6a847ba97cef2437f0da0f0c2f59a214113531339fe0",
+   "core": "a42a7123b067d300c86ae379b5eaf1069eb8e5190e7d3d25d2d8fe7b81785ec0",
+   "variants": {
+    "none": 54884,
+    "analogous": 15033,
+    "complementary": 4984,
+    "monochromatic": 3080,
+    "achromatic": 982,
+    "saturated": 12033,
+    "tinted": 9004
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 6,
+    "monochromatic": 113,
+    "achromatic": 3,
+    "saturated": 0,
+    "tinted": 1
+   }
+  },
+  {
+   "start": 1100000,
+   "end": 1200000,
+   "full": "556205ce18441bce80b6b1f070dde0d0050e84a38e5406dafc3a609a756df47f",
+   "core": "20f041020ef567f225cca7293da8a5a32f18f998a62a9405c630f34b2c4043b1",
+   "variants": {
+    "none": 55058,
+    "analogous": 14981,
+    "complementary": 4885,
+    "monochromatic": 2997,
+    "achromatic": 979,
+    "saturated": 12138,
+    "tinted": 8962
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 7,
+    "monochromatic": 94,
+    "achromatic": 4,
+    "saturated": 0,
+    "tinted": 1
+   }
+  },
+  {
+   "start": 1200000,
+   "end": 1300000,
+   "full": "cd3827c649b238110b2deea16e5973b44b19e40376c261831cd39dd142bed417",
+   "core": "34a98bcb7255b26d5cba511170303009c283777c5f0bf471e5eb8b5f13160199",
+   "variants": {
+    "none": 54975,
+    "analogous": 15002,
+    "complementary": 4926,
+    "monochromatic": 3039,
+    "achromatic": 1022,
+    "saturated": 11965,
+    "tinted": 9071
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 7,
+    "monochromatic": 96,
+    "achromatic": 1,
+    "saturated": 0,
+    "tinted": 1
+   }
+  },
+  {
+   "start": 1300000,
+   "end": 1400000,
+   "full": "5511322051ca0b6d70dc4f31c4c069c228db569bf1e7bb5e7497086476794b1e",
+   "core": "59a7acb7dfeb6ec47f044fefe3eb0defd54b20c7ffaeaf7f893cf3e81647a9bb",
+   "variants": {
+    "none": 55051,
+    "analogous": 14968,
+    "complementary": 5037,
+    "monochromatic": 3062,
+    "achromatic": 1023,
+    "saturated": 11744,
+    "tinted": 9115
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 8,
+    "monochromatic": 97,
+    "achromatic": 6,
+    "saturated": 0,
+    "tinted": 1
+   }
+  },
+  {
+   "start": 1400000,
+   "end": 1500000,
+   "full": "f1581898ecb943d253fd546c0cef06ece823143cb1868429dda9a144271e7871",
+   "core": "7f20bbed49d4537705d52b5c9d2804bd83ca7922c4f8f2e8b6d00c842ffd527b",
+   "variants": {
+    "none": 55072,
+    "analogous": 14942,
+    "complementary": 4955,
+    "monochromatic": 3042,
+    "achromatic": 1042,
+    "saturated": 11906,
+    "tinted": 9041
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 1,
+    "complementary": 6,
+    "monochromatic": 96,
+    "achromatic": 3,
+    "saturated": 1,
+    "tinted": 0
+   }
+  },
+  {
+   "start": 1500000,
+   "end": 1600000,
+   "full": "a035374ed1ceda985445fc2b5aad9f5a7d46723f78566c120ba6a03912464ec7",
+   "core": "77bd8b5db04a2960a154bfc4ecc8f6b9dae8e4233694fb2c3422e2df7fa3ac15",
+   "variants": {
+    "none": 54734,
+    "analogous": 15019,
+    "complementary": 5083,
+    "monochromatic": 3077,
+    "achromatic": 993,
+    "saturated": 12186,
+    "tinted": 8908
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 10,
+    "monochromatic": 104,
+    "achromatic": 1,
+    "saturated": 0,
+    "tinted": 0
+   }
+  },
+  {
+   "start": 1600000,
+   "end": 1700000,
+   "full": "cc91537af01aa9bb5a7fc7b3dd0b4f194a1bc7565613d55f94980cf9ee7916d1",
+   "core": "daa28f627e9c53009b7a25477690b3ddf0da2f83d62d7207d41fbebc08f3a4f7",
+   "variants": {
+    "none": 55295,
+    "analogous": 15175,
+    "complementary": 4926,
+    "monochromatic": 2982,
+    "achromatic": 938,
+    "saturated": 11765,
+    "tinted": 8919
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 10,
+    "monochromatic": 118,
+    "achromatic": 2,
+    "saturated": 0,
+    "tinted": 1
+   }
+  },
+  {
+   "start": 1700000,
+   "end": 1800000,
+   "full": "8da61fba00dfeb789a3bc6d493954725378d5ff27e6b9d7a802ff65719875745",
+   "core": "d4114c1b2293e89eb5866e23b4e242a14fcdd255a9c17c4472185e8e2f8acfe5",
+   "variants": {
+    "none": 54883,
+    "analogous": 15020,
+    "complementary": 5063,
+    "monochromatic": 2957,
+    "achromatic": 985,
+    "saturated": 12064,
+    "tinted": 9028
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 5,
+    "monochromatic": 119,
+    "achromatic": 2,
+    "saturated": 0,
+    "tinted": 0
+   }
+  },
+  {
+   "start": 1800000,
+   "end": 1900000,
+   "full": "5f4d305ca2febd14f428ffb42504f97b9434a541750c99b8846045cd5b4e7aa4",
+   "core": "7e9d4640038a1612e211672655e3df49151bfe644a3caef9f8a5664ad6cc0241",
+   "variants": {
+    "none": 55308,
+    "analogous": 14847,
+    "complementary": 4965,
+    "monochromatic": 2950,
+    "achromatic": 1039,
+    "saturated": 11974,
+    "tinted": 8917
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 10,
+    "monochromatic": 111,
+    "achromatic": 4,
+    "saturated": 0,
+    "tinted": 0
+   }
+  },
+  {
+   "start": 1900000,
+   "end": 2000000,
+   "full": "507a19100a35186d59c8fb4af9185df8698223792fe595114866191e8c0cfa23",
+   "core": "fca7917f53572b95a2193fbfabd27fe5eda79b675afcc1e7fa43bd291f5c4977",
+   "variants": {
+    "none": 54681,
+    "analogous": 15308,
+    "complementary": 5012,
+    "monochromatic": 3021,
+    "achromatic": 1034,
+    "saturated": 11900,
+    "tinted": 9044
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 7,
+    "monochromatic": 90,
+    "achromatic": 0,
+    "saturated": 1,
+    "tinted": 1
+   }
+  },
+  {
+   "start": 2000000,
+   "end": 2100000,
+   "full": "92cd8d0894ab2913f9193dfdeb96e7ebb65b081c9d9de9f41dbf6535685491d9",
+   "core": "771009bacdb739a4170bc9d3aba20b775656506a07228eb099dcaff7bec9e274",
+   "variants": {
+    "none": 55171,
+    "analogous": 14937,
+    "complementary": 4944,
+    "monochromatic": 2969,
+    "achromatic": 978,
+    "saturated": 11929,
+    "tinted": 9072
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 5,
+    "monochromatic": 113,
+    "achromatic": 3,
+    "saturated": 0,
+    "tinted": 0
+   }
+  },
+  {
+   "start": 2100000,
+   "end": 2200000,
+   "full": "5674de0af4744e57c044107204d679f7caac6d5ca386634512a3704797e4aae7",
+   "core": "1de04b12d6e97d24fea7c2407219d79d38a3f77f695f5697936b20ca122e1ffc",
+   "variants": {
+    "none": 54979,
+    "analogous": 14881,
+    "complementary": 4946,
+    "monochromatic": 3137,
+    "achromatic": 1013,
+    "saturated": 12029,
+    "tinted": 9015
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 14,
+    "monochromatic": 103,
+    "achromatic": 4,
+    "saturated": 1,
+    "tinted": 2
+   }
+  },
+  {
+   "start": 2200000,
+   "end": 2300000,
+   "full": "b628f68079699010a525cdc94a1c58f74f984ec552f1d324e7b4185cda76322d",
+   "core": "2a3d8e2cb966a8a07550e2c61cb912f1430dc91483ea1548a33e771a886dec76",
+   "variants": {
+    "none": 55176,
+    "analogous": 14736,
+    "complementary": 5006,
+    "monochromatic": 3052,
+    "achromatic": 1010,
+    "saturated": 12046,
+    "tinted": 8974
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 6,
+    "monochromatic": 99,
+    "achromatic": 3,
+    "saturated": 0,
+    "tinted": 0
+   }
+  },
+  {
+   "start": 2300000,
+   "end": 2400000,
+   "full": "ca51405632dcda7bfec8f71fe546fd914144762c374a418c3cb4fcb1ed049393",
+   "core": "051ba1eeff174f5432ae97d0045b0c8b6c016e9e99ef5684bc08a81e95017853",
+   "variants": {
+    "none": 54871,
+    "analogous": 14970,
+    "complementary": 5040,
+    "monochromatic": 3084,
+    "achromatic": 985,
+    "saturated": 11955,
+    "tinted": 9095
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 7,
+    "monochromatic": 104,
+    "achromatic": 5,
+    "saturated": 0,
+    "tinted": 2
+   }
+  },
+  {
+   "start": 2400000,
+   "end": 2500000,
+   "full": "f76e53fdfb2c8e4b7756f11c93e6d2815c1e6be131e42c7af2c599862f3194b9",
+   "core": "6793f0088a9dfd6c13603b7c15c2d32a225b23f9933a63c1b6f63e6e0919d911",
+   "variants": {
+    "none": 54828,
+    "analogous": 15022,
+    "complementary": 5080,
+    "monochromatic": 2968,
+    "achromatic": 1008,
+    "saturated": 12018,
+    "tinted": 9076
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 12,
+    "monochromatic": 94,
+    "achromatic": 2,
+    "saturated": 0,
+    "tinted": 1
+   }
+  },
+  {
+   "start": 2500000,
+   "end": 2600000,
+   "full": "ddf412b328cdccf704b773b146e7cfb5d78da543b2bb509526dbc9abfd426d48",
+   "core": "47eb938f6accd6f4ea5b3dcd41447ea46a02971401302f16057bb496ad2b1cf3",
+   "variants": {
+    "none": 55094,
+    "analogous": 15022,
+    "complementary": 4871,
+    "monochromatic": 2986,
+    "achromatic": 965,
+    "saturated": 12232,
+    "tinted": 8830
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 3,
+    "monochromatic": 101,
+    "achromatic": 6,
+    "saturated": 0,
+    "tinted": 1
+   }
+  },
+  {
+   "start": 2600000,
+   "end": 2700000,
+   "full": "f5d30c2b9ad61087cd6493d4e3b435105e9f966d7824e35e98d47ed1bd64743c",
+   "core": "c2b5fdba459a3a1a9d2689cefd3824a10d65cf6f3478f2a40b0e1431af729141",
+   "variants": {
+    "none": 55149,
+    "analogous": 14783,
+    "complementary": 4896,
+    "monochromatic": 2999,
+    "achromatic": 992,
+    "saturated": 11984,
+    "tinted": 9197
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 7,
+    "monochromatic": 96,
+    "achromatic": 2,
+    "saturated": 1,
+    "tinted": 2
+   }
+  },
+  {
+   "start": 2700000,
+   "end": 2800000,
+   "full": "2caac22947cdbd5bfb5176d1136a557ad42004c586d36c0e9506bfc78ae1d22c",
+   "core": "e6fe5b016c1171f6b0ceb3357b084602f209dab192ce82fa48ea5b4f3599f395",
+   "variants": {
+    "none": 55081,
+    "analogous": 14926,
+    "complementary": 4947,
+    "monochromatic": 3040,
+    "achromatic": 932,
+    "saturated": 12086,
+    "tinted": 8988
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 8,
+    "monochromatic": 100,
+    "achromatic": 4,
+    "saturated": 0,
+    "tinted": 0
+   }
+  },
+  {
+   "start": 2800000,
+   "end": 2900000,
+   "full": "29889153452175906b1477555692cb82d95bf3a66c320551ac6b7f0547fbbdb6",
+   "core": "7736e39b294eb1e9b3759c7d1e06d00c910d7cb35a47fa2c34c5fb4634952db0",
+   "variants": {
+    "none": 55153,
+    "analogous": 14867,
+    "complementary": 5013,
+    "monochromatic": 3010,
+    "achromatic": 1034,
+    "saturated": 11924,
+    "tinted": 8999
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 8,
+    "monochromatic": 103,
+    "achromatic": 3,
+    "saturated": 0,
+    "tinted": 0
+   }
+  },
+  {
+   "start": 2900000,
+   "end": 3000000,
+   "full": "5e4bca4dff071217ac3ff41024e817cdfc4778e90e2728c641cdae437ab21dbc",
+   "core": "b0c2b65c63b58ff467e2ddadfff4cfa0fb75461bf826d7622b7e9375a9b2cf1b",
+   "variants": {
+    "none": 54842,
+    "analogous": 14944,
+    "complementary": 4881,
+    "monochromatic": 3088,
+    "achromatic": 1057,
+    "saturated": 12162,
+    "tinted": 9026
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 1,
+    "complementary": 9,
+    "monochromatic": 96,
+    "achromatic": 1,
+    "saturated": 0,
+    "tinted": 1
+   }
+  },
+  {
+   "start": 3000000,
+   "end": 3100000,
+   "full": "02c3a09d5519543e98704dc05e9dc30e8309c0f44c114ffcadfc83610d0a3838",
+   "core": "987d1a75f59c6bc32b79156a7abacab02937c65b80d7c6c55deb17b4504df9fa",
+   "variants": {
+    "none": 55036,
+    "analogous": 14919,
+    "complementary": 4966,
+    "monochromatic": 2987,
+    "achromatic": 971,
+    "saturated": 12030,
+    "tinted": 9091
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 5,
+    "monochromatic": 98,
+    "achromatic": 3,
+    "saturated": 0,
+    "tinted": 1
+   }
+  },
+  {
+   "start": 3100000,
+   "end": 3200000,
+   "full": "b19911a8174ad343b69efe4435aecc7ab2c6b5379ff311cecce69d4203609f8f",
+   "core": "98eefa96ab752f6f4913274a5a16a1d45a9b254dc868b91eb535a58d41acf897",
+   "variants": {
+    "none": 54670,
+    "analogous": 15082,
+    "complementary": 5066,
+    "monochromatic": 2880,
+    "achromatic": 1054,
+    "saturated": 12270,
+    "tinted": 8978
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 7,
+    "monochromatic": 104,
+    "achromatic": 3,
+    "saturated": 0,
+    "tinted": 1
+   }
+  },
+  {
+   "start": 3200000,
+   "end": 3300000,
+   "full": "db5ad35b66a927fb236e07cc07602e495817bc67b996a6b8248cbf222716f32e",
+   "core": "17cc6dc4a319ead4eb0932dac8f91feaf52eedd033f47ea3c81d28da529ab1fd",
+   "variants": {
+    "none": 54791,
+    "analogous": 15046,
+    "complementary": 5035,
+    "monochromatic": 3021,
+    "achromatic": 1006,
+    "saturated": 12059,
+    "tinted": 9042
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 6,
+    "monochromatic": 97,
+    "achromatic": 2,
+    "saturated": 1,
+    "tinted": 0
+   }
+  },
+  {
+   "start": 3300000,
+   "end": 3400000,
+   "full": "cbc0df3f45ecc17e49682d2316a514daac8e659ba80e35da83d87764bae0e911",
+   "core": "6105e38a5c36a7283987f932d0d886d541093a6e4a8042c614127828e4032fba",
+   "variants": {
+    "none": 54972,
+    "analogous": 14993,
+    "complementary": 5075,
+    "monochromatic": 2997,
+    "achromatic": 961,
+    "saturated": 11997,
+    "tinted": 9005
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 11,
+    "monochromatic": 100,
+    "achromatic": 3,
+    "saturated": 0,
+    "tinted": 1
+   }
+  },
+  {
+   "start": 3400000,
+   "end": 3500000,
+   "full": "f6943e0bb486511b46877ee8c638a9a91b3cf3c31f46ef300b35b0dec29d2f29",
+   "core": "89395a790e42341fb5edc030624a7d17acca03656d90eb35b678f5535a2fe740",
+   "variants": {
+    "none": 55099,
+    "analogous": 14980,
+    "complementary": 4901,
+    "monochromatic": 2843,
+    "achromatic": 987,
+    "saturated": 12120,
+    "tinted": 9070
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 12,
+    "monochromatic": 91,
+    "achromatic": 4,
+    "saturated": 0,
+    "tinted": 0
+   }
+  },
+  {
+   "start": 3500000,
+   "end": 3600000,
+   "full": "65a38a149c0996326302a766111fbfc05c68b343c113299dff3dd12adbeb9fe8",
+   "core": "ecc20f20b270ab3cf438f1070cc19198d4be73ca63c74ee5f9c876411f7a059e",
+   "variants": {
+    "none": 54926,
+    "analogous": 14926,
+    "complementary": 4963,
+    "monochromatic": 2958,
+    "achromatic": 992,
+    "saturated": 12169,
+    "tinted": 9066
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 1,
+    "complementary": 6,
+    "monochromatic": 86,
+    "achromatic": 0,
+    "saturated": 1,
+    "tinted": 1
+   }
+  },
+  {
+   "start": 3600000,
+   "end": 3700000,
+   "full": "6165d53178e09883a45782e4be5972da0f24430a9534ab806bfc4e6345aa7e75",
+   "core": "c0a603ccb8f17d78fe7e7e5c347ec832ed3d064b2271956e52f555e5eb9ee7c7",
+   "variants": {
+    "none": 55111,
+    "analogous": 14889,
+    "complementary": 4893,
+    "monochromatic": 2936,
+    "achromatic": 975,
+    "saturated": 12142,
+    "tinted": 9054
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 9,
+    "monochromatic": 93,
+    "achromatic": 1,
+    "saturated": 0,
+    "tinted": 0
+   }
+  },
+  {
+   "start": 3700000,
+   "end": 3800000,
+   "full": "cac792849627be3933f2e1e7a63c53009b5213461f59029ecb2d5afd108cf026",
+   "core": "fc7897d470d1343aaadfac0047ffe2d2e7d6504fe89c4b55368f3a8749d987e8",
+   "variants": {
+    "none": 54975,
+    "analogous": 15104,
+    "complementary": 4994,
+    "monochromatic": 2995,
+    "achromatic": 956,
+    "saturated": 11901,
+    "tinted": 9075
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 14,
+    "monochromatic": 99,
+    "achromatic": 4,
+    "saturated": 0,
+    "tinted": 0
+   }
+  },
+  {
+   "start": 3800000,
+   "end": 3900000,
+   "full": "21020cab21f8df5df8e1f4efb0a0d93e33f38be85a84606915936067e29df410",
+   "core": "84df2cf627a0db261a7f9ed49891566b4fdec139f42c08d091ed5bd4c5eda845",
+   "variants": {
+    "none": 55013,
+    "analogous": 14793,
+    "complementary": 5114,
+    "monochromatic": 2983,
+    "achromatic": 979,
+    "saturated": 12206,
+    "tinted": 8912
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 3,
+    "monochromatic": 95,
+    "achromatic": 3,
+    "saturated": 0,
+    "tinted": 0
+   }
+  },
+  {
+   "start": 3900000,
+   "end": 4000000,
+   "full": "1ffa7023dccfbb75edb42e01b35cad803753ed5b8f702c26ac7a54a94794517b",
+   "core": "b8510d67bda0db92cd01936e21cebc439c44c3034969d817af62fd2006367fd3",
+   "variants": {
+    "none": 54917,
+    "analogous": 15082,
+    "complementary": 5028,
+    "monochromatic": 3056,
+    "achromatic": 999,
+    "saturated": 11958,
+    "tinted": 8960
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 5,
+    "monochromatic": 101,
+    "achromatic": 3,
+    "saturated": 1,
+    "tinted": 1
+   }
+  },
+  {
+   "start": 4000000,
+   "end": 4100000,
+   "full": "3d2d2c425b2ee7a113402c534acf73802b54691e38842f65441d08411e257e1c",
+   "core": "2761527dde8aee4e51e022f3e3f542832bc4a97a2bb1ba3e8ae57a150d59e441",
+   "variants": {
+    "none": 55237,
+    "analogous": 14792,
+    "complementary": 5069,
+    "monochromatic": 2894,
+    "achromatic": 993,
+    "saturated": 12002,
+    "tinted": 9013
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 1,
+    "complementary": 9,
+    "monochromatic": 91,
+    "achromatic": 4,
+    "saturated": 0,
+    "tinted": 1
+   }
+  },
+  {
+   "start": 4100000,
+   "end": 4200000,
+   "full": "5c6a32e48513cae9a410f94f7968153d2821ab09184c07df7679874e5daf150b",
+   "core": "06aa26ed88b5037dafd9f8dfaa339b9ce485dca1c9a7ad0bc18c89cd8cd67c36",
+   "variants": {
+    "none": 55154,
+    "analogous": 14999,
+    "complementary": 5045,
+    "monochromatic": 3055,
+    "achromatic": 958,
+    "saturated": 11976,
+    "tinted": 8813
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 4,
+    "monochromatic": 101,
+    "achromatic": 1,
+    "saturated": 0,
+    "tinted": 0
+   }
+  },
+  {
+   "start": 4200000,
+   "end": 4300000,
+   "full": "62ec2221432d6ed557a3cb3960490718458c614cb4dec9ed6cf59febd7bcfce8",
+   "core": "11c4251fb8759a0ba48e0aacc4c6320640bb682be9a1a5df7b5a25c9ce1000f1",
+   "variants": {
+    "none": 55058,
+    "analogous": 15011,
+    "complementary": 4986,
+    "monochromatic": 2952,
+    "achromatic": 938,
+    "saturated": 12089,
+    "tinted": 8966
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 11,
+    "monochromatic": 121,
+    "achromatic": 0,
+    "saturated": 0,
+    "tinted": 0
+   }
+  },
+  {
+   "start": 4300000,
+   "end": 4400000,
+   "full": "9cde4c304f66474b880c88ec79e813e2aaea105c066fa74433e69abc6f59651e",
+   "core": "102ae5d1d72300015af7298cdb766544d2841ada7ef745cf0ceae963e1c8492b",
+   "variants": {
+    "none": 55295,
+    "analogous": 14768,
+    "complementary": 5031,
+    "monochromatic": 2924,
+    "achromatic": 998,
+    "saturated": 11947,
+    "tinted": 9037
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 13,
+    "monochromatic": 127,
+    "achromatic": 3,
+    "saturated": 0,
+    "tinted": 1
+   }
+  },
+  {
+   "start": 4400000,
+   "end": 4500000,
+   "full": "56e0a8ad4d4dc5e07b0d7f19eb91479357e189f8139df13eb08e1e9f6db08118",
+   "core": "b178cba886503c16ab155b0ec23b7a164ad60a1a7cef312e492e0fe5e34aae07",
+   "variants": {
+    "none": 54893,
+    "analogous": 15114,
+    "complementary": 5047,
+    "monochromatic": 3032,
+    "achromatic": 975,
+    "saturated": 11908,
+    "tinted": 9031
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 9,
+    "monochromatic": 99,
+    "achromatic": 1,
+    "saturated": 0,
+    "tinted": 1
+   }
+  },
+  {
+   "start": 4500000,
+   "end": 4600000,
+   "full": "ed8ecfe2ea3d05e89c0fd10f75951b5297afc5cd488109bdd9e10ef56d5dc17d",
+   "core": "04f3f1082eb21c3d9ae4fab73747e224f4ec187b12e3fbb68f4832f539b8d3d8",
+   "variants": {
+    "none": 54683,
+    "analogous": 14967,
+    "complementary": 5078,
+    "monochromatic": 2983,
+    "achromatic": 1006,
+    "saturated": 12298,
+    "tinted": 8985
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 12,
+    "monochromatic": 100,
+    "achromatic": 0,
+    "saturated": 0,
+    "tinted": 3
+   }
+  },
+  {
+   "start": 4600000,
+   "end": 4700000,
+   "full": "7afa07b1078770afabe79ca592c1422a9273136d118e0df57124f9f6b72cd1e4",
+   "core": "4b1b4b99a449636eeb46c2f964fa4f1986e74493379c2a3c52406da9febd57a2",
+   "variants": {
+    "none": 54724,
+    "analogous": 15012,
+    "complementary": 5097,
+    "monochromatic": 2899,
+    "achromatic": 975,
+    "saturated": 12187,
+    "tinted": 9106
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 1,
+    "complementary": 12,
+    "monochromatic": 95,
+    "achromatic": 1,
+    "saturated": 0,
+    "tinted": 0
+   }
+  },
+  {
+   "start": 4700000,
+   "end": 4800000,
+   "full": "16a7e8d9416f0ddc81ab478f036cfbc287b9b28e203e53e2b205381b605d01f1",
+   "core": "7ca5fb987e632ee396ea4f088668cdb10701a1ea56c3cb2891439921117b7db4",
+   "variants": {
+    "none": 54961,
+    "analogous": 14997,
+    "complementary": 5187,
+    "monochromatic": 2926,
+    "achromatic": 983,
+    "saturated": 11869,
+    "tinted": 9077
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 9,
+    "monochromatic": 103,
+    "achromatic": 4,
+    "saturated": 0,
+    "tinted": 0
+   }
+  },
+  {
+   "start": 4800000,
+   "end": 4900000,
+   "full": "f24658f832226b47b482163dcdbc48175e35b9a5e279204cec73aacae0a2e655",
+   "core": "1ed4ee7ba42452a2bd2289a0ae02190fd1c6ceb07680bfebef58f8a7d32efa98",
+   "variants": {
+    "none": 54967,
+    "analogous": 15107,
+    "complementary": 4948,
+    "monochromatic": 3008,
+    "achromatic": 988,
+    "saturated": 11895,
+    "tinted": 9087
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 3,
+    "monochromatic": 95,
+    "achromatic": 1,
+    "saturated": 0,
+    "tinted": 0
+   }
+  },
+  {
+   "start": 4900000,
+   "end": 5000000,
+   "full": "de63c566744148d7427d7bb2e9f240d995216e24672a0b23d1ea762a5aaf37be",
+   "core": "5e4985eb4b591bc2c1513df6755a7de998ab23dfb527c9eb5df565562e82dc20",
+   "variants": {
+    "none": 55088,
+    "analogous": 15080,
+    "complementary": 4878,
+    "monochromatic": 2891,
+    "achromatic": 1038,
+    "saturated": 11977,
+    "tinted": 9048
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 10,
+    "monochromatic": 116,
+    "achromatic": 4,
+    "saturated": 0,
+    "tinted": 0
+   }
+  },
+  {
+   "start": 5000000,
+   "end": 5100000,
+   "full": "afd5f7a06b62074f7a224b9d2c94186875d10fc5813c3071692aedd164f82d61",
+   "core": "8264a25694051abbbe5d9b7ca53a223f920414fe33b902fde449059558450bc1",
+   "variants": {
+    "none": 55118,
+    "analogous": 14976,
+    "complementary": 5014,
+    "monochromatic": 3020,
+    "achromatic": 1005,
+    "saturated": 11872,
+    "tinted": 8995
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 6,
+    "monochromatic": 108,
+    "achromatic": 1,
+    "saturated": 1,
+    "tinted": 0
+   }
+  },
+  {
+   "start": 5100000,
+   "end": 5200000,
+   "full": "87c28d407fce1c477f2553deca6f14570334a15dfe9a907635b9cffe57aea184",
+   "core": "09cad29e55e202310b6e3483a4800b64c905294ab1639db92c9c0a2cfd9a67a5",
+   "variants": {
+    "none": 54918,
+    "analogous": 14925,
+    "complementary": 5159,
+    "monochromatic": 3014,
+    "achromatic": 1032,
+    "saturated": 12080,
+    "tinted": 8872
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 13,
+    "monochromatic": 104,
+    "achromatic": 4,
+    "saturated": 0,
+    "tinted": 2
+   }
+  },
+  {
+   "start": 5200000,
+   "end": 5300000,
+   "full": "0c568aba68f6e1e88c986950b6da2c20bb999a96633d73f978573e080bf4b5a3",
+   "core": "a2e44287e5fc0acbf4a36e0004910e23d8be8061f05b6a477924b823e11210e5",
+   "variants": {
+    "none": 54971,
+    "analogous": 14993,
+    "complementary": 5060,
+    "monochromatic": 3057,
+    "achromatic": 993,
+    "saturated": 11999,
+    "tinted": 8927
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 8,
+    "monochromatic": 97,
+    "achromatic": 3,
+    "saturated": 0,
+    "tinted": 0
+   }
+  },
+  {
+   "start": 5300000,
+   "end": 5400000,
+   "full": "e18e648606988427455aead582c45af036555ae827e8f65167112139570487cd",
+   "core": "651b0daab2d7cf5f2dc41e9412443afd56541659d6f686c945bd2f94bb011f02",
+   "variants": {
+    "none": 54841,
+    "analogous": 15207,
+    "complementary": 5059,
+    "monochromatic": 2989,
+    "achromatic": 1083,
+    "saturated": 11935,
+    "tinted": 8886
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 12,
+    "monochromatic": 113,
+    "achromatic": 5,
+    "saturated": 0,
+    "tinted": 1
+   }
+  },
+  {
+   "start": 5400000,
+   "end": 5500000,
+   "full": "d0d1dfba79b9cdd38a716effb19d08ccd1ff7ff255836ed510854b193f505bbd",
+   "core": "2f0b273ad4a4a5055ae66d5801f1340db7f45e146c0cc96a8c783de49714456b",
+   "variants": {
+    "none": 55109,
+    "analogous": 14975,
+    "complementary": 5008,
+    "monochromatic": 3013,
+    "achromatic": 1020,
+    "saturated": 11930,
+    "tinted": 8945
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 8,
+    "monochromatic": 107,
+    "achromatic": 4,
+    "saturated": 0,
+    "tinted": 2
+   }
+  },
+  {
+   "start": 5500000,
+   "end": 5600000,
+   "full": "5066ea98ccab31fe82362d1fb5a204c2d18de4c362ee7670dc80d0318ca7be18",
+   "core": "8fe173b8d07b3cad909980d9b9756582336e402d1e55b1820713bd5b6dabf193",
+   "variants": {
+    "none": 54728,
+    "analogous": 15165,
+    "complementary": 5020,
+    "monochromatic": 2958,
+    "achromatic": 1011,
+    "saturated": 12031,
+    "tinted": 9087
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 12,
+    "monochromatic": 106,
+    "achromatic": 1,
+    "saturated": 0,
+    "tinted": 1
+   }
+  },
+  {
+   "start": 5600000,
+   "end": 5700000,
+   "full": "d4a683a9fe699e7fd1b174de50d5bb6568ee611067ef8a3f9edebf7188d66e8c",
+   "core": "3748e1ac9f2e3b02617665ee642ff9990413e4d00cd3d4f9dbef09a0059b1403",
+   "variants": {
+    "none": 55061,
+    "analogous": 15058,
+    "complementary": 5097,
+    "monochromatic": 2999,
+    "achromatic": 982,
+    "saturated": 11798,
+    "tinted": 9005
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 10,
+    "monochromatic": 106,
+    "achromatic": 5,
+    "saturated": 0,
+    "tinted": 0
+   }
+  },
+  {
+   "start": 5700000,
+   "end": 5800000,
+   "full": "b220f12186b01ab75aca8b8130957455f3ece7af7e83f7f9c747426c5826eada",
+   "core": "e3f3776c3067c0d6955767ab87e1cc979d8c1c956831465f81bc141d5a9c700c",
+   "variants": {
+    "none": 55078,
+    "analogous": 14918,
+    "complementary": 5046,
+    "monochromatic": 2992,
+    "achromatic": 1055,
+    "saturated": 11877,
+    "tinted": 9034
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 10,
+    "monochromatic": 101,
+    "achromatic": 3,
+    "saturated": 0,
+    "tinted": 0
+   }
+  },
+  {
+   "start": 5800000,
+   "end": 5900000,
+   "full": "75ebef30bfbbef08eb804c2ac293f430c8df7b51593b7b3a9d9a3e54a7dad139",
+   "core": "71538a3faddb736f7824fc074e162d9ee5b6cdee853df7256cf97b4594bfe461",
+   "variants": {
+    "none": 54811,
+    "analogous": 14880,
+    "complementary": 5121,
+    "monochromatic": 3016,
+    "achromatic": 1064,
+    "saturated": 12192,
+    "tinted": 8916
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 7,
+    "monochromatic": 98,
+    "achromatic": 6,
+    "saturated": 0,
+    "tinted": 4
+   }
+  },
+  {
+   "start": 5900000,
+   "end": 6000000,
+   "full": "b7f758b5184bc2cbe7d43c9399aa20c2cf5b7bbc3d8485fdc916aefe36f3546e",
+   "core": "a92cdc7a8ed5cea95209a1d53ad879c806c25bcbdab28be948347d3b236dc9ba",
+   "variants": {
+    "none": 55092,
+    "analogous": 14976,
+    "complementary": 5058,
+    "monochromatic": 2971,
+    "achromatic": 976,
+    "saturated": 11821,
+    "tinted": 9106
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 6,
+    "monochromatic": 128,
+    "achromatic": 1,
+    "saturated": 0,
+    "tinted": 0
+   }
+  },
+  {
+   "start": 6000000,
+   "end": 6100000,
+   "full": "719ea1d0ee15d4d54f8205d122fb44f420672d65ed0da53d1c2defce884bc244",
+   "core": "87b892af608c7f4b0c862c7083f15fc41dba25546886aaff994099727b4bb9d7",
+   "variants": {
+    "none": 55068,
+    "analogous": 15073,
+    "complementary": 5097,
+    "monochromatic": 2949,
+    "achromatic": 1004,
+    "saturated": 12012,
+    "tinted": 8797
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 7,
+    "monochromatic": 119,
+    "achromatic": 1,
+    "saturated": 0,
+    "tinted": 1
+   }
+  },
+  {
+   "start": 6100000,
+   "end": 6200000,
+   "full": "5ba5f0570e51d56fdc783b56cf8c582ee0ad19854ccffdc9bce17f4170981585",
+   "core": "b36ca05a12bc6f080156f167defc1f000c4e04d15107c8170581acaa530e1247",
+   "variants": {
+    "none": 54942,
+    "analogous": 14875,
+    "complementary": 5033,
+    "monochromatic": 3027,
+    "achromatic": 999,
+    "saturated": 12009,
+    "tinted": 9115
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 10,
+    "monochromatic": 116,
+    "achromatic": 2,
+    "saturated": 0,
+    "tinted": 0
+   }
+  },
+  {
+   "start": 6200000,
+   "end": 6300000,
+   "full": "6e29632355c96324e02658e7017b427c3bddab53ece02de859170d019531ce2f",
+   "core": "7a486261dd99ad37382fe40cf0ceab08412efdafd01813075f9dcc47dd6d918a",
+   "variants": {
+    "none": 55364,
+    "analogous": 14913,
+    "complementary": 4896,
+    "monochromatic": 2992,
+    "achromatic": 1040,
+    "saturated": 11958,
+    "tinted": 8837
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 3,
+    "monochromatic": 111,
+    "achromatic": 1,
+    "saturated": 0,
+    "tinted": 4
+   }
+  },
+  {
+   "start": 6300000,
+   "end": 6400000,
+   "full": "153de0ef24dce6cdccc8097215d9058902e8357c1a321b515c2e57d8e1a6ce60",
+   "core": "ba42019ebacd8457f22abcf0c0a8f282f0c9e6f7778adfb61670e288fcb9728d",
+   "variants": {
+    "none": 55061,
+    "analogous": 14994,
+    "complementary": 4976,
+    "monochromatic": 3005,
+    "achromatic": 1002,
+    "saturated": 12017,
+    "tinted": 8945
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 10,
+    "monochromatic": 101,
+    "achromatic": 2,
+    "saturated": 0,
+    "tinted": 0
+   }
+  },
+  {
+   "start": 6400000,
+   "end": 6500000,
+   "full": "702d24d8c2341c869ea5ae3e1febd8c80403e581f6aa04ae980ec13527b218c2",
+   "core": "c908ed59ad955e322f2e1a89c200a60eb56f5744faf151830a8841ea90b7050a",
+   "variants": {
+    "none": 54965,
+    "analogous": 14986,
+    "complementary": 5055,
+    "monochromatic": 2945,
+    "achromatic": 1020,
+    "saturated": 12120,
+    "tinted": 8909
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 8,
+    "monochromatic": 111,
+    "achromatic": 4,
+    "saturated": 0,
+    "tinted": 0
+   }
+  },
+  {
+   "start": 6500000,
+   "end": 6600000,
+   "full": "c3bfb92a1e7500a2625620e1cafcada6c18f247e2b8bd2ed50291483e2d292d9",
+   "core": "b62d655eb05d3e7bad354a48ee8f97090acf00a8c7f434765afa49da1d9dc5e3",
+   "variants": {
+    "none": 54971,
+    "analogous": 14954,
+    "complementary": 4977,
+    "monochromatic": 2963,
+    "achromatic": 1001,
+    "saturated": 12151,
+    "tinted": 8983
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 10,
+    "monochromatic": 101,
+    "achromatic": 3,
+    "saturated": 0,
+    "tinted": 0
+   }
+  },
+  {
+   "start": 6600000,
+   "end": 6700000,
+   "full": "31cb7b178fc1fd6a43a641dfd7d298d3a712a8c06dc1b0e84fae86ddb43df614",
+   "core": "5d87522b5e56ffc86af917c8e3781eb10414386f1ce05f8aa0c8735233174890",
+   "variants": {
+    "none": 54879,
+    "analogous": 15007,
+    "complementary": 4960,
+    "monochromatic": 3027,
+    "achromatic": 1057,
+    "saturated": 12079,
+    "tinted": 8991
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 1,
+    "complementary": 7,
+    "monochromatic": 84,
+    "achromatic": 4,
+    "saturated": 0,
+    "tinted": 0
+   }
+  },
+  {
+   "start": 6700000,
+   "end": 6800000,
+   "full": "10d4439ce5447122a1e3b7f5dd0beae413afb89bd54ba2b5826b5ea5e1d26191",
+   "core": "6ac96e0cd83e5e1607dbfc853e91b7f984407bfd5ac322f2746c06d0f46b89c8",
+   "variants": {
+    "none": 54810,
+    "analogous": 14944,
+    "complementary": 5052,
+    "monochromatic": 2947,
+    "achromatic": 1005,
+    "saturated": 12191,
+    "tinted": 9051
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 11,
+    "monochromatic": 100,
+    "achromatic": 4,
+    "saturated": 0,
+    "tinted": 1
+   }
+  },
+  {
+   "start": 6800000,
+   "end": 6900000,
+   "full": "750558229fee91018247c050c541e33bd451a07db22e299ffc9ec21cd7e9f373",
+   "core": "a42868fa2b7a026f0eab3b04d77f433a37c9f69fd4d47a6804d6a86cce9ff2ec",
+   "variants": {
+    "none": 54856,
+    "analogous": 15102,
+    "complementary": 4973,
+    "monochromatic": 2909,
+    "achromatic": 1051,
+    "saturated": 12154,
+    "tinted": 8955
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 13,
+    "monochromatic": 93,
+    "achromatic": 1,
+    "saturated": 0,
+    "tinted": 0
+   }
+  },
+  {
+   "start": 6900000,
+   "end": 7000000,
+   "full": "94fe59b2f75be42a88fecfbfb3919e478faf9733cb3fa8106be69cb6deb9f9d2",
+   "core": "77fb82a2d02853ccdc4fb62cd4c426b9a622031a7cf4037544870c5e4aca53c1",
+   "variants": {
+    "none": 54590,
+    "analogous": 15079,
+    "complementary": 5047,
+    "monochromatic": 2985,
+    "achromatic": 983,
+    "saturated": 12250,
+    "tinted": 9066
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 8,
+    "monochromatic": 89,
+    "achromatic": 2,
+    "saturated": 0,
+    "tinted": 0
+   }
+  },
+  {
+   "start": 7000000,
+   "end": 7100000,
+   "full": "b80cbd2976e9b84e1917c4983dedf75c7d77950d087b3d51509396302d34242a",
+   "core": "70e8bc857ef691ebe2ffebe7ed74015b3c76ec893400224943d5971c8f7f0f85",
+   "variants": {
+    "none": 54942,
+    "analogous": 14977,
+    "complementary": 5028,
+    "monochromatic": 3096,
+    "achromatic": 1035,
+    "saturated": 11967,
+    "tinted": 8955
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 17,
+    "monochromatic": 113,
+    "achromatic": 3,
+    "saturated": 0,
+    "tinted": 0
+   }
+  },
+  {
+   "start": 7100000,
+   "end": 7200000,
+   "full": "63b87b2a4620a86212333fb7ce08e4b45d7f2bda0e42593aa479d93b72098af9",
+   "core": "40a3a407afa2b49d4ac7694cf9a9f2e7c8d006132f7ec13267226909cfc6f652",
+   "variants": {
+    "none": 54809,
+    "analogous": 14960,
+    "complementary": 5086,
+    "monochromatic": 2981,
+    "achromatic": 954,
+    "saturated": 12125,
+    "tinted": 9085
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 8,
+    "monochromatic": 120,
+    "achromatic": 2,
+    "saturated": 0,
+    "tinted": 0
+   }
+  },
+  {
+   "start": 7200000,
+   "end": 7300000,
+   "full": "04f17db3d5f40da364266e76c4bae18d216cae1d1b16ddae213df7889323d3e7",
+   "core": "47cf7c965eb00c423497c09246a73ec3a9642d214eea552afcefa63ff78b9b84",
+   "variants": {
+    "none": 54942,
+    "analogous": 15083,
+    "complementary": 5005,
+    "monochromatic": 3054,
+    "achromatic": 1032,
+    "saturated": 11955,
+    "tinted": 8929
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 11,
+    "monochromatic": 87,
+    "achromatic": 3,
+    "saturated": 0,
+    "tinted": 0
+   }
+  },
+  {
+   "start": 7300000,
+   "end": 7400000,
+   "full": "373080b8afe74f0c1f2f0763da25896665dbbe0f4d3a8f39500024c3e2c538e6",
+   "core": "89203687055676ee1b8efd70e095dd14ac42fdc328934ce921aac9e08a2dda60",
+   "variants": {
+    "none": 54593,
+    "analogous": 15118,
+    "complementary": 5145,
+    "monochromatic": 2960,
+    "achromatic": 1019,
+    "saturated": 11987,
+    "tinted": 9178
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 11,
+    "monochromatic": 92,
+    "achromatic": 1,
+    "saturated": 1,
+    "tinted": 3
+   }
+  },
+  {
+   "start": 7400000,
+   "end": 7500000,
+   "full": "c585fd48dffd4845eb6121c5e8384d368ca2ee3d838575692dd4d4205ce4dbef",
+   "core": "80f3f4a2dcf5df2484b5d29f15a3ec4f77ed2f78ebeb969a9f475264c6bfef77",
+   "variants": {
+    "none": 55031,
+    "analogous": 14986,
+    "complementary": 5040,
+    "monochromatic": 2942,
+    "achromatic": 969,
+    "saturated": 12031,
+    "tinted": 9001
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 2,
+    "complementary": 5,
+    "monochromatic": 85,
+    "achromatic": 1,
+    "saturated": 1,
+    "tinted": 0
+   }
+  },
+  {
+   "start": 7500000,
+   "end": 7600000,
+   "full": "8c8e95ad3c72406ce13c24c6e6b9a10faf78123f6f923e8995a27d1820dd2d11",
+   "core": "2aac9c4e3cdc5f5e1ff47b6f85d34f9ab8c714d4876d268555bf851564e91bee",
+   "variants": {
+    "none": 54809,
+    "analogous": 15110,
+    "complementary": 4932,
+    "monochromatic": 3050,
+    "achromatic": 1029,
+    "saturated": 12217,
+    "tinted": 8853
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 3,
+    "monochromatic": 108,
+    "achromatic": 3,
+    "saturated": 1,
+    "tinted": 0
+   }
+  },
+  {
+   "start": 7600000,
+   "end": 7700000,
+   "full": "b9048e97c31185695c7dffe182a6ea09fc2c999302e733668bdcbc7b0fdf3ae9",
+   "core": "e29ab0f0c501d93a57f50563bffbb84a40dea71c437df9da28390e5c3e5dd41c",
+   "variants": {
+    "none": 55050,
+    "analogous": 15077,
+    "complementary": 4953,
+    "monochromatic": 2988,
+    "achromatic": 1006,
+    "saturated": 12032,
+    "tinted": 8894
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 14,
+    "monochromatic": 110,
+    "achromatic": 6,
+    "saturated": 0,
+    "tinted": 1
+   }
+  },
+  {
+   "start": 7700000,
+   "end": 7800000,
+   "full": "d6c1a994aabc0ed16798171b640fd422687b77c17a1c993b5803a5eafeb53e0f",
+   "core": "d1e1a3506ef2158269f434a9d6ac7bc11ba3b674e68b2e7dd47261ba4833136f",
+   "variants": {
+    "none": 55377,
+    "analogous": 14798,
+    "complementary": 4966,
+    "monochromatic": 2965,
+    "achromatic": 976,
+    "saturated": 11952,
+    "tinted": 8966
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 9,
+    "monochromatic": 118,
+    "achromatic": 2,
+    "saturated": 0,
+    "tinted": 2
+   }
+  },
+  {
+   "start": 7800000,
+   "end": 7900000,
+   "full": "b555fc9abca37a40b3d1896245eabc6b9f985f22a2c6c4d1c739da3edba5b12f",
+   "core": "5e33c7f77ecc6ff915ba77984275d237d4bdfa280fb3b95532174ae2218feedf",
+   "variants": {
+    "none": 55173,
+    "analogous": 14836,
+    "complementary": 4961,
+    "monochromatic": 2983,
+    "achromatic": 973,
+    "saturated": 12029,
+    "tinted": 9045
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 9,
+    "monochromatic": 120,
+    "achromatic": 1,
+    "saturated": 1,
+    "tinted": 0
+   }
+  },
+  {
+   "start": 7900000,
+   "end": 8000000,
+   "full": "0d6d0ac80ab3a17e8839493d920e20c3658c27bdeb429a0d1a1a4ba15221072a",
+   "core": "c89fc0571bbecc25a0285ba8333c5bde9436f76fd6c1304589e6ef4fb4c1e139",
+   "variants": {
+    "none": 54995,
+    "analogous": 14960,
+    "complementary": 4916,
+    "monochromatic": 2965,
+    "achromatic": 972,
+    "saturated": 12142,
+    "tinted": 9050
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 10,
+    "monochromatic": 98,
+    "achromatic": 7,
+    "saturated": 0,
+    "tinted": 0
+   }
+  },
+  {
+   "start": 8000000,
+   "end": 8100000,
+   "full": "177aed3854a412ee21ca4c70da24da1fd3e3704d90d22c1509751ca382062fb5",
+   "core": "997a1181d585ef62a254c8c39f5df2fb57eb9e4e8dbfd3e2870b1a86f3c8c5cb",
+   "variants": {
+    "none": 54945,
+    "analogous": 15191,
+    "complementary": 4976,
+    "monochromatic": 2986,
+    "achromatic": 1024,
+    "saturated": 11770,
+    "tinted": 9108
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 7,
+    "monochromatic": 107,
+    "achromatic": 3,
+    "saturated": 0,
+    "tinted": 1
+   }
+  },
+  {
+   "start": 8100000,
+   "end": 8200000,
+   "full": "22739c488d0c93ff0ca79d2f9edb2327dd683883aa0f40bd42e47a9ea0b1bddd",
+   "core": "a65bbd874b089763e06571a1d30eb7b8aba4fe2ecc5f005ba87b1b65697c10ca",
+   "variants": {
+    "none": 55209,
+    "analogous": 14888,
+    "complementary": 4994,
+    "monochromatic": 3041,
+    "achromatic": 985,
+    "saturated": 11972,
+    "tinted": 8911
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 1,
+    "complementary": 8,
+    "monochromatic": 105,
+    "achromatic": 8,
+    "saturated": 0,
+    "tinted": 0
+   }
+  },
+  {
+   "start": 8200000,
+   "end": 8300000,
+   "full": "6fe777c542cbf61fccdef99d5e6ec0d3b5784fd5d29f14e4daf8d0b30acd2b71",
+   "core": "79e387a0cb0f325c18c74aa3dcadbc71062f852a712e451010b86e28654b4c11",
+   "variants": {
+    "none": 55002,
+    "analogous": 15020,
+    "complementary": 5019,
+    "monochromatic": 2999,
+    "achromatic": 1006,
+    "saturated": 11872,
+    "tinted": 9082
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 8,
+    "monochromatic": 87,
+    "achromatic": 2,
+    "saturated": 0,
+    "tinted": 1
+   }
+  },
+  {
+   "start": 8300000,
+   "end": 8400000,
+   "full": "7930083ccce86e7ee2ebc413ad893766b697d0d72a00a65d6e6dbcb9894e313e",
+   "core": "7b0a50f827ac12874476f32f472fb4b963b48b8206224f1bb5ba41ec83116697",
+   "variants": {
+    "none": 54745,
+    "analogous": 15192,
+    "complementary": 5081,
+    "monochromatic": 2986,
+    "achromatic": 982,
+    "saturated": 12120,
+    "tinted": 8894
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 6,
+    "monochromatic": 120,
+    "achromatic": 1,
+    "saturated": 0,
+    "tinted": 0
+   }
+  },
+  {
+   "start": 8400000,
+   "end": 8500000,
+   "full": "5f8aefda8ab461c84f0b5b50f049cb6875f17d95f3fb191509aa07590da60768",
+   "core": "866ce0889ee345e1d6af25a879c18979244e6bdc3e9261b0c584c006c4919a62",
+   "variants": {
+    "none": 54923,
+    "analogous": 15045,
+    "complementary": 5039,
+    "monochromatic": 3080,
+    "achromatic": 977,
+    "saturated": 11950,
+    "tinted": 8986
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 10,
+    "monochromatic": 121,
+    "achromatic": 5,
+    "saturated": 0,
+    "tinted": 2
+   }
+  },
+  {
+   "start": 8500000,
+   "end": 8600000,
+   "full": "f6eefad3a391b5878f8718eef7f6e2000d7ab801a05cca761d3811ae709eae22",
+   "core": "d8e07756e312b7d65b84e77a8bc67c8de38f309d4dbd59763ceb03b1627af747",
+   "variants": {
+    "none": 55154,
+    "analogous": 15112,
+    "complementary": 4972,
+    "monochromatic": 2952,
+    "achromatic": 1001,
+    "saturated": 11889,
+    "tinted": 8920
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 13,
+    "monochromatic": 106,
+    "achromatic": 0,
+    "saturated": 0,
+    "tinted": 1
+   }
+  },
+  {
+   "start": 8600000,
+   "end": 8700000,
+   "full": "e7c2600c08ac82a739e99a404f0791433eb1a34907dfae3d65ddd745409456e7",
+   "core": "56c7cd9b41370e7e2f7b18f759fb53ee1e70ebbadb22cf8253f383d5945a3cd3",
+   "variants": {
+    "none": 54728,
+    "analogous": 15036,
+    "complementary": 5100,
+    "monochromatic": 3015,
+    "achromatic": 1030,
+    "saturated": 12083,
+    "tinted": 9008
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 4,
+    "monochromatic": 115,
+    "achromatic": 4,
+    "saturated": 0,
+    "tinted": 1
+   }
+  },
+  {
+   "start": 8700000,
+   "end": 8800000,
+   "full": "285b88b8b78f9636e5cd32b61cdf293097546422c1acacfe8f2b9321419afb41",
+   "core": "bf46b8cf859df400fe600587e55ad9d8423431da906e3d1e92a670cdc1e192ba",
+   "variants": {
+    "none": 54850,
+    "analogous": 15008,
+    "complementary": 4965,
+    "monochromatic": 2975,
+    "achromatic": 1025,
+    "saturated": 12046,
+    "tinted": 9131
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 2,
+    "monochromatic": 97,
+    "achromatic": 5,
+    "saturated": 0,
+    "tinted": 0
+   }
+  },
+  {
+   "start": 8800000,
+   "end": 8900000,
+   "full": "e1b4934c2b05569116b35fbb6315636863c2403e03d55e42476b3ef089ab9b67",
+   "core": "1c78b2fb5e4742756e17ea1e50b5fc3eeafcb9cccd9515983685b0e6ec4fb8b2",
+   "variants": {
+    "none": 55022,
+    "analogous": 14828,
+    "complementary": 5114,
+    "monochromatic": 3005,
+    "achromatic": 1003,
+    "saturated": 12100,
+    "tinted": 8928
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 18,
+    "monochromatic": 102,
+    "achromatic": 1,
+    "saturated": 0,
+    "tinted": 3
+   }
+  },
+  {
+   "start": 8900000,
+   "end": 9000000,
+   "full": "9eb0cd007c7a75f4134717ea73a7af3d81d0532ab640ad968530028c167b8f8b",
+   "core": "ab1bd7ca54d01880bf5adbe1a31fafc1518262157d93b60d2604941c94d02d55",
+   "variants": {
+    "none": 54932,
+    "analogous": 14762,
+    "complementary": 5012,
+    "monochromatic": 3020,
+    "achromatic": 1003,
+    "saturated": 12153,
+    "tinted": 9118
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 8,
+    "monochromatic": 85,
+    "achromatic": 3,
+    "saturated": 0,
+    "tinted": 1
+   }
+  },
+  {
+   "start": 9000000,
+   "end": 9100000,
+   "full": "ff2cca807e6549383730adc3125e0cfb6d9056892837d98cb92c7711cf1c15ad",
+   "core": "873f1b3a68fc6ac1c56eb6bfc62d223625bb87a9bd06bf8fd948ee0a50feeaf2",
+   "variants": {
+    "none": 55052,
+    "analogous": 15013,
+    "complementary": 4930,
+    "monochromatic": 2895,
+    "achromatic": 1044,
+    "saturated": 11909,
+    "tinted": 9157
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 6,
+    "monochromatic": 111,
+    "achromatic": 4,
+    "saturated": 0,
+    "tinted": 0
+   }
+  },
+  {
+   "start": 9100000,
+   "end": 9200000,
+   "full": "dbad1217e476bb2f1f781a7add3f1ae27da375942e419b846b8c528bf0c39ec8",
+   "core": "ed80220b99691a86ec081b9569a2afb8f5686a75aef7cd346bbd0dd099c05efd",
+   "variants": {
+    "none": 55065,
+    "analogous": 15000,
+    "complementary": 5039,
+    "monochromatic": 2899,
+    "achromatic": 983,
+    "saturated": 12038,
+    "tinted": 8976
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 1,
+    "complementary": 7,
+    "monochromatic": 104,
+    "achromatic": 1,
+    "saturated": 0,
+    "tinted": 0
+   }
+  },
+  {
+   "start": 9200000,
+   "end": 9300000,
+   "full": "5ada38d297e4594764d728f5d20e0d306456ec0d44212ca5665145ef66b24f66",
+   "core": "2fc7e2be1520866fddb49d66f00cd94e0b449af77e1547249de8a6b6eee3a6aa",
+   "variants": {
+    "none": 54851,
+    "analogous": 15108,
+    "complementary": 4887,
+    "monochromatic": 2938,
+    "achromatic": 1002,
+    "saturated": 12199,
+    "tinted": 9015
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 8,
+    "monochromatic": 106,
+    "achromatic": 0,
+    "saturated": 0,
+    "tinted": 1
+   }
+  },
+  {
+   "start": 9300000,
+   "end": 9400000,
+   "full": "a64f7ef637e607f1727923262dc9213c6c372fe20e6a95b98b4897e07269b0ac",
+   "core": "7ead54d826baeb3e23c35d809af30fcb3d8a903e6dcfcb2a567d747b5d19c622",
+   "variants": {
+    "none": 55077,
+    "analogous": 14784,
+    "complementary": 5078,
+    "monochromatic": 2943,
+    "achromatic": 974,
+    "saturated": 12041,
+    "tinted": 9103
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 11,
+    "monochromatic": 92,
+    "achromatic": 2,
+    "saturated": 0,
+    "tinted": 0
+   }
+  },
+  {
+   "start": 9400000,
+   "end": 9500000,
+   "full": "7a435936dcb8cdb32fad3aab394a061dcbb759679fc2587f071fdd586512a1a9",
+   "core": "bea43600856763ac3d4e0bfa1d27d1724bba9847adec29343421cc42d020549a",
+   "variants": {
+    "none": 54830,
+    "analogous": 14951,
+    "complementary": 5014,
+    "monochromatic": 2990,
+    "achromatic": 1028,
+    "saturated": 12071,
+    "tinted": 9116
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 8,
+    "monochromatic": 106,
+    "achromatic": 2,
+    "saturated": 1,
+    "tinted": 2
+   }
+  },
+  {
+   "start": 9500000,
+   "end": 9600000,
+   "full": "87ff44fc789f22d36c8fb1be87749076e89bcbbf47e98c844117681d566e2175",
+   "core": "1251d6980c8eab113474f90bdaa10d1c33f5715a6262f3713eaf994c9a43174a",
+   "variants": {
+    "none": 54905,
+    "analogous": 14927,
+    "complementary": 4951,
+    "monochromatic": 3013,
+    "achromatic": 998,
+    "saturated": 12098,
+    "tinted": 9108
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 8,
+    "monochromatic": 108,
+    "achromatic": 3,
+    "saturated": 0,
+    "tinted": 1
+   }
+  },
+  {
+   "start": 9600000,
+   "end": 9700000,
+   "full": "059d3c783cf816c1969546d1f4bf3d12bb6b0e606117b17c50636c5296868c30",
+   "core": "d81782da4e54d16b5bc5e83c69f42e9dbc3db34cf3de191d448e7df5e80635b5",
+   "variants": {
+    "none": 54858,
+    "analogous": 15133,
+    "complementary": 4892,
+    "monochromatic": 3056,
+    "achromatic": 1038,
+    "saturated": 11983,
+    "tinted": 9040
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 8,
+    "monochromatic": 86,
+    "achromatic": 2,
+    "saturated": 0,
+    "tinted": 0
+   }
+  },
+  {
+   "start": 9700000,
+   "end": 9800000,
+   "full": "62754896572daccc0634ef2c18fd1dbbec1d1886aeef39951363690bdcc76656",
+   "core": "0075abb01123258b93a80d1d590eb7409aecbb681b58057516a5ecf7aadcf55b",
+   "variants": {
+    "none": 55062,
+    "analogous": 15141,
+    "complementary": 4990,
+    "monochromatic": 2931,
+    "achromatic": 962,
+    "saturated": 11918,
+    "tinted": 8996
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 12,
+    "monochromatic": 99,
+    "achromatic": 3,
+    "saturated": 0,
+    "tinted": 0
+   }
+  },
+  {
+   "start": 9800000,
+   "end": 9900000,
+   "full": "45b5e4eda2b89841856ea059407923d72f1a1a6d5e0fc212fde4d6ba14cbd660",
+   "core": "36ff2f5a09019cf99e60343ada173d2160674ee7ad1482f5e3d1092cb27a88ac",
+   "variants": {
+    "none": 55069,
+    "analogous": 15088,
+    "complementary": 5046,
+    "monochromatic": 2989,
+    "achromatic": 959,
+    "saturated": 11930,
+    "tinted": 8919
+   },
+   "statics": {
+    "none": 1,
+    "analogous": 0,
+    "complementary": 13,
+    "monochromatic": 108,
+    "achromatic": 2,
+    "saturated": 0,
+    "tinted": 0
+   }
+  },
+  {
+   "start": 9900000,
+   "end": 10000000,
+   "full": "0fc147fe67de143f2c4687eb25b5f404a83dc99aa961c4e99acdd1cdb4dcdaef",
+   "core": "9f43f521d85d2d76e1f8d20af1584c68c4512e42932d02cd8b1a3d9621c8a131",
+   "variants": {
+    "none": 55200,
+    "analogous": 14945,
+    "complementary": 4972,
+    "monochromatic": 2989,
+    "achromatic": 971,
+    "saturated": 12025,
+    "tinted": 8898
+   },
+   "statics": {
+    "none": 0,
+    "analogous": 0,
+    "complementary": 8,
+    "monochromatic": 111,
+    "achromatic": 1,
+    "saturated": 0,
+    "tinted": 3
+   }
+  }
+ ],
+ "note": "screen3.mjs here adds a single-hash print mode to the script that produced the rows; the per-hash computation is unchanged"
+}
