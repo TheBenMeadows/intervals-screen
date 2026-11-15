@@ -70,4 +70,4 @@ The claim is about these 100,000,000 hashes. It is not a claim about every possi
 
 ## Credits
 
-Intervals is by Jeff Davis and is licensed CC BY-NC 4.0. The colour conversion in `screen3.mjs` follows p5.js 1.9.0 (LGPL-2.1). The screen and this repository are by Benjamin Meadows.
+Intervals is by Jeff Davis and is licensed CC BY-NC 4.0. The colour conversion in `screen3.mjs` follows p5.js 1.9.0 (LGPL-2.1). The screen and this repository are by Benjamin Meadows. The code is MIT-licensed, except the p5 shim in `screen3.mjs`, which stays LGPL-2.1; see `LICENSE` and `NOTICE`.
